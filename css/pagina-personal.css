@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #5c6784;
+  background-color: #1d263b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
@@ -44,7 +44,7 @@ header p {
   position: absolute;
   right: -200px;
   top: 75px;
-  background-color: white;
+  background-color: #5c6784;
   width: auto;
   height: auto;
   padding: 20px 10px;
