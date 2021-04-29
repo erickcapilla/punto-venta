@@ -44,7 +44,7 @@ header p {
   position: absolute;
   right: -200px;
   top: 75px;
-  background-color: #5c6784;
+  background-color: white;
   width: auto;
   height: auto;
   padding: 20px 10px;
@@ -100,7 +100,7 @@ main {
   height: 300px;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: 0 0 10px 0px rgb(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px 0px rgb(0, 0, 0, 0.5);
 }
 
 .inicio img {
@@ -340,6 +340,7 @@ form {
   padding: 30px;
   text-align: left;
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+  min-width: 300px;
 }
 
 ::placeholder {
