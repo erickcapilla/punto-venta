@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/practica_3-paginas.css">
+    <title>Contactame</title>
+  </head>
+  <body>
+    <h2 id="contacto">¡Contactanos!</h2>
+
+      <form
+        action="mailto:erickpoblano25@gmail.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <label for="name">Nombre:</label> <br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="Escribe tu nombre"
+        />
+        <br />
+        <label for="email">E-mail:</label> <br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          required
+          placeholder="Escribe tu e-mail"
+        />
+        <br />
+        <label for="comment">Comentario:</label> <br />
+        <textarea
+          name="textarea"
+          rows="10"
+          placeholder="Escribe tu comentario"
+        ></textarea>
+        <br /><br />
+        <input type="submit" value="Enviar" class="boton btn-uno" />
+        <input type="reset" value="Borrar" class="boton" />
+      </form>
+  </body>
+</html>
