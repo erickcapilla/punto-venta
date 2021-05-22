@@ -16,3 +16,29 @@
   text-decoration: underline;
   transition: 1000ms;
 }
+
+.formRegis {
+  position: absolute;
+  text-align: center;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+fieldset {
+  margin: 15px 0;
+  border: 1px solid white;
+  border-radius: 25px;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.formRegis input {
+  min-width: 215px;
+  max-width: 250px;
+  margin: 15px 10px;
+}
+
