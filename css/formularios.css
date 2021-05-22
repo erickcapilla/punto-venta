@@ -21,7 +21,8 @@
   transition: 1000ms;
 }
 
-.formRegis {
+.formRegis,
+.formPrefe {
   position: absolute;
   text-align: center;
   min-width: 435px;
@@ -38,11 +39,13 @@
   top: 5vh;
 }
 
-.formRegis::-webkit-scrollbar {
+.formRegis::-webkit-scrollbar,
+.formPrefe::-webkit-scrollbar {
   display: none;
 }
 
-.formRegis::-webkit-scrollbar-thumb {
+.formRegis::-webkit-scrollbar-thumb,
+.formPrefe::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 
@@ -57,14 +60,16 @@ fieldset {
   align-items: center;
 }
 
-.formRegis input {
+.formRegis input,
+.formPrefe input {
   min-width: 215px;
   max-width: 200px;
   margin: 15px 10px;
 }
 
 .formRegis .enviar_btn,
-.formRegis button {
+.formRegis button,
+.formPrefe .enviar_btn {
   min-width: 100px;
   max-width: 150px;
   padding: 8px;
@@ -108,4 +113,19 @@ fieldset {
   background-color: rgb(255, 0, 0);
   color: white;
   cursor: pointer;
+}
+
+.formPrefe h2 {
+  margin-bottom: 35px;
+}
+
+.formPrefe label {
+  display: inline-block;
+  width: 100%;
+}
+
+.formPrefe input {
+  min-width: 135px;
+  max-width: 135px;
+  margin: 35px 0;
 }

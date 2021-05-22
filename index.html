@@ -51,9 +51,35 @@
 				<input type="password" autocomplete="off" required placeholder="Contraseña">
 			</fieldset>
 			<div class="btn-container">
-				<input type="submit" value="Registrame" class="enviar_btn"> 
-				<button>Preferencias</button>
+				<input type="submit" value="Registrame" class="enviar_btn" id="btn_registrar">
+				<button id="btn_prefe">Preferencias</button>
 			</div>
+		</form>
+
+		<form action="" class="formPrefe">
+			<span id="close">X</span>
+			<h2>Preferencias</h2>
+			<label for="">
+				<span>Productos  </span>
+				<select name="cars">
+					<option value="x-box">X-BOX</option>
+					<option value="play station">Play Station</option>
+					<option value="fifa 21">Fifa 21</option>
+					<option value="pes 2021">PES 2021</option>
+					<option value="control x-box">Control X-BOX</option>
+					<option value="control play station">Control Play Station</option>
+				</select>
+			</label>
+			<label for="">
+				<span>Número de Productos</span>
+				<input type="number" name="no_compra" step="2" min="2" max="20">
+			</label>
+			<label for="">
+				<span>Fecha de entrega y horarios</span>
+				<input type="date" name="date" min="2021-24-05" max="2022-12-31" autocomplete="off" required>
+				<input type="time" name="horario">
+			</label>
+			<input type="submit" value="Enviar" class="enviar_btn">
 		</form>
 
 		<main>

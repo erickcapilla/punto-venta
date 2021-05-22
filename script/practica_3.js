@@ -3,6 +3,8 @@ const comprar_card = document.getElementById('compra_card')
 const registro_btn = document.getElementById('btn_registro')
 const formRegis = document.getElementById('formRegis')
 const close = document.querySelector('#close')
+const btn_prefe = document.getElementById('btn_prefe')
+const btn_registrar = document.getElementById('btn_registrar')
 
 close.addEventListener('click', () => {
   if(formRegis.classList.contains('is-active')) {
