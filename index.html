@@ -50,13 +50,16 @@
 				<input type="password" autocomplete="off" required placeholder="Contraseña">
 				<input type="password" autocomplete="off" required placeholder="Contraseña">
 			</fieldset>
+			<label for="">
+				<textarea name="" id="comentarios_regis" cols="30" rows="10" placeholder="Comentarios"></textarea>
+			</label>
 			<div class="btn-container">
 				<input type="submit" value="Registrame" class="enviar_btn" id="btn_registrar">
 				<button id="btn_prefe">Preferencias</button>
 			</div>
 		</form>
 
-		<form action="" class="formPrefe">
+		<form action="" class="formPrefe" id="formPrefe">
 			<span id="close">X</span>
 			<h2>Preferencias</h2>
 			<label for="">
@@ -72,12 +75,15 @@
 			</label>
 			<label for="">
 				<span>Número de Productos</span>
-				<input type="number" name="no_compra" step="2" min="2" max="20">
+				<input type="number" name="no_compra" step="2" min="2" max="20" required>
 			</label>
 			<label for="">
 				<span>Fecha de entrega y horarios</span>
 				<input type="date" name="date" min="2021-24-05" max="2022-12-31" autocomplete="off" required>
 				<input type="time" name="horario">
+			</label>
+			<label for="">
+				<textarea name="" id="comentarios_prefe" cols="30" rows="10" placeholder="Comentarios"></textarea>
 			</label>
 			<input type="submit" value="Enviar" class="enviar_btn">
 		</form>
