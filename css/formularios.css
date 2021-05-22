@@ -1,4 +1,6 @@
-.menu button {
+.menu button,
+.enviar_btn,
+.enviar_btn + button {
   border: 2px solid #01df14;
   background-color: transparent;
   padding: 10px 30px;
@@ -9,7 +11,9 @@
   cursor: pointer;
 }
 
-.menu button:hover {
+.menu button:hover,
+.enviar_btn:hover,
+.enviar_btn + button:hover  {
   background-color: #01df14;
   color: black;
   font-weight: bold;
@@ -23,6 +27,14 @@
   height: 80vh;
   overflow: hidden;
   overflow-y: auto;
+}
+
+.formRegis::-webkit-scrollbar {
+  display: none;
+}
+
+.formRegis::-webkit-scrollbar-thumb {
+  background-color: transparent;
 }
 
 fieldset {
@@ -40,5 +52,23 @@ fieldset {
   min-width: 215px;
   max-width: 250px;
   margin: 15px 10px;
+}
+
+.formRegis .enviar_btn,
+.formRegis button {
+  min-width: 100px;
+  max-width: 150px;
+  padding: 8px;
+  height: 35px;
+}
+
+.formRegis .enviar_btn {
+  margin-right: 55px;
+  border: 2px solid rgb(24, 101, 242);
+}
+
+.formRegis .enviar_btn:hover {
+  background-color: rgb(24, 101, 242);
+  color: white;
 }
 
