@@ -24,9 +24,18 @@
 .formRegis {
   position: absolute;
   text-align: center;
+  min-width: 435px;
   height: 80vh;
   overflow: hidden;
   overflow-y: auto;
+  min-width: 250px;
+  max-width: 650px;
+  transform: translateX(50%);
+  top: -100vh;
+}
+
+.is-active {
+  top: 5vh;
 }
 
 .formRegis::-webkit-scrollbar {
@@ -40,7 +49,7 @@
 fieldset {
   margin: 15px 0;
   border: 1px solid white;
-  border-radius: 25px;
+  border-radius: 10px;
   display: flex;
   flex-shrink: 1;
   flex-wrap: wrap;
@@ -50,7 +59,7 @@ fieldset {
 
 .formRegis input {
   min-width: 215px;
-  max-width: 250px;
+  max-width: 200px;
   margin: 15px 10px;
 }
 
@@ -72,3 +81,11 @@ fieldset {
   color: white;
 }
 
+.btn-container {
+  width: 100%;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
