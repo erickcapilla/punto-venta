@@ -89,3 +89,23 @@ fieldset {
   justify-content: center;
   align-items: center;
 }
+
+#close {
+  display: inline-block;
+  color: rgb(255, 0, 0);
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  border: 2px solid rgb(255, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+#close:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  cursor: pointer;
+}
