@@ -13,7 +13,7 @@ body {
 
 table {
   border-spacing: 50px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 .audio img,
@@ -25,4 +25,11 @@ table {
 .audio img {
   border-radius: 50%;
   border: 3px solid white;
+}
+
+embed {
+  margin: 50px auto;
+  width: 80%;
+  height: 90vh;
+  border: 1px solid white;
 }
